@@ -24,7 +24,9 @@ public class TestandoListas {
 																		// interface Comparable e também comparando por
 																		// tempo de aula do menor para o maior
 
-		// aulas.sort(Comparator.comparing(Aula::getTempo)); - Forma mais "bonita" para
+		// aulas.sort(Comparator.comparing(Aula::getTempo));
+
+		// - Forma mais "bonita" para
 		// utilizarmos o Comparator pois Toda lista, a partir do Java 8, possui um
 		// método sort que recebe Comparator
 
